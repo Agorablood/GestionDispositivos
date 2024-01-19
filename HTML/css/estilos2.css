@@ -1,0 +1,113 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center
+}
+
+img:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#movilimg,
+#pcimg {
+    width: 500px;
+    height: 250px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+#alien,
+#samsung,
+#huawei,
+#xiaomi,
+#sony,
+#oppo {
+    width: 200px;
+    height: 150px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-right: 3rem;
+}
+
+
+#pc {
+    display: flex;
+
+}
+.select{
+    display: none;
+}
+
+
+
+
+
+
+.opcion0 {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 180px;
+    cursor: pointer;
+    text-align: center;
+
+
+}
+
+
+.inicio2 {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background: #ffffff;
+    text-align: center;
+    margin: 10px auto;
+    margin-left: 180px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 50px;
+
+}
+/* opcion para ocultar la categoria del dispositivo */
+#moal, #ms,#mh, #mx, #msy, #mo {
+    display: none; 
+}
+/* opcion ocultar modelo iphone */
+#moi, #mos, #moh, #mox, #moy, #moo{
+    display: none;
+}
+/* opcion ocultar año del dispositivo */
+#mai,#san,#han,#xan,#son,#oan{
+    display: none;
+}
+/* opcion de ocultar el tamaño de las pulgadas */
+#mpi,#sapu,#hpu,#xpu,#spu,#opu{
+    display: none;
+}
+/* opcion de ocultar el tipo de pantalla del dispositivo */
+#ipa,#sapa,#hpa,#xpa,#spa,#opa{
+    display: none;
+}
+/* opcion de ocultar el tipo de conectividad del dispositivo */
+#ico,#sac,#hco,#xco,#soc,#oco{
+    display: none;
+}
+
+#boton1{
+    display: none;
+    margin: 5rem 0;
+    text-align: center;
+    
+}
+.boton1{
+    border-radius: 10%;
+    box-shadow: 0px 0px 5px 2px gray;
+
+}
+

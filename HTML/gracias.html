@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRACIAS!</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+            margin-top: 15rem;
+            position: relative; /* Asegura que el elemento sea posicionado de forma relativa */
+        }
+
+    
+        .fondo-desenfocado {
+            background-image: url(src/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: blur(4px); /* Aplica un desenfoque al fondo */
+            position: absolute; /* Posición absoluta para cubrir todo el div */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="titulo">
+        <div class="fondo-desenfocado"></div>
+        <h1>Producto registrado correctamente</h1>
+    </div>
+    <script>
+        //espera de 2 segundos y vuelve al main
+        setTimeout(function () {
+            window.location.href = 'main.php'; 
+        }, 2000);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+46	iPhone 12	Básico	2021	4.7	XDR	3G
+47	Huawei P30	Lite	2022	5.4	XDR	3G
+48	Xiaomi Mi 11	Ultra	2023	5.4	Oled	3G
+49	Sony Xperia 1 III	II	2021	4.7	Oled	
+50	Oppo Find	Pro	2023	6.7	Oled	4G
+51	Sony Xperia 1	Plus	2023	6.7	Oled	5G
+52	Xiaomi Mi 10	Lite	2022	5.4	XDR	3G
+53	iPhone 14	ProMax	2022	4.7	LCD	4G
+54	Oppo Find	Plus	2022	4.7	Oled	4G
+55	Galaxy S	Ultra	2023	6.7	Oled	5G
+56	iPhone 14	ProMax	2023	6.7	Oled	5G
+57	Oppo Reno 5	Plus	2022	5.4	Oled	4G
